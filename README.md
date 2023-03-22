@@ -9,13 +9,21 @@ B
 C
 
 Here is hierarchy of the given group (their direct and inderct children to the bottom):
-A
-├── K
-│   └── M
-└── L
-B
-C
-└── M
+- A
+  - K
+    - M
+  - L
+- B
+- C
+  - M
+
+A: K, L (A has 2 direct children - K and L)
+K: M
+M: None (doesn't have subgroups)
+L: None
+B: None
+C: M
+M: None
 
 The result will be:
 B
